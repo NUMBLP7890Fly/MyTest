@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var a bool = true
+	var a = true
 	b := false
 	fmt.Println("a:", a, "b:", b)
 	c := a && b
